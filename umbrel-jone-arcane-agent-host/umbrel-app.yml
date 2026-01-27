@@ -1,18 +1,18 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
+id: umbrel-jone-arcane-agent-host
+name: Arcane Agent Host
+tagline: A host for Arcane agents
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
-port: 4000
+port: 3553
 description: >-
   Add your app's description here.
 
 
   You can also add newlines!
 
-developer: Umbrel
+developer: Jone
 website: https://umbrel.com
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel-hello-world-app
