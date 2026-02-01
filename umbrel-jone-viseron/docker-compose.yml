@@ -1,0 +1,17 @@
+services:
+  viseron:
+    image: roflcoopter/viseron:latest
+    container_name: viseron
+    restart: unless-stopped
+    shm_size: "1024mb"
+    privileged: true
+    ports:
+      - 8888:8888
+    volumes:
+      - ${APP_DATA_DIR}/data:/segments
+      - ${APP_DATA_DIR}/data/viseron/snapshots:/snapshots
+      - ${APP_DATA_DIR}/data/viseron/thumbnails:/thumbnails
+      - ${APP_DATA_DIR}/data/viseron/event_clips:/event_clips
+      - ${APP_DATA_DIR}/data/viseron/timelapse:/timelapse
+      - ${APP_DATA_DIR}/data/viseron/config:/config
+      - /etc/localtime:/etc/localtime:ro

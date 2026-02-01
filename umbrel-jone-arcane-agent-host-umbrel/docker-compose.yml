@@ -2,7 +2,7 @@ version: '3.7'
 services:  
   arcane-agent-host:  
     image: ghcr.io/getarcaneapp/arcane-headless:latest
-    container_name: arcane-agent-host
+    container_name: arcane-agent-host-umbrel
     restart: unless-stopped
     stop_grace_period: 1m
     network_mode: host
