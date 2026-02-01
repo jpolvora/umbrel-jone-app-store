@@ -5,7 +5,7 @@ tagline: Viseron
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
-port: 3553
+port: 8888
 description: >-
   Add your app's description here.
 
