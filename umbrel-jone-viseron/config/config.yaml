@@ -47,7 +47,7 @@ logger:
 storage:
   recorder:
     tiers:
-      - path: /segments # Will store segments in /segments folder inside the container
+      - path: / # Will store segments in /segments folder inside the container
         events:
           max_size:
             gb: 20
