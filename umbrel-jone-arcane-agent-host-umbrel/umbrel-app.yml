@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: umbrel-jone-arcane-agent-host-umbrel
 category: developer
 name: umbrel-jone-arcane-agent-host-umbrel
-version: "1.0.2"
+version: "1.0.3"
 tagline: Arcane Agent Host for Umbrel 
 description: >-
   Arcane Agent Host for Umbrel is a powerful tool that allows you to manage and monitor your Docker containers with ease. It provides a user-friendly interface to view logs, monitor resource usage, and manage your containers effectively. With Arcane Agent Host for Umbrel, you can keep track of your container's performance and ensure they are running smoothly.
