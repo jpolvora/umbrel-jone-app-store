@@ -13,8 +13,10 @@ services:
       - AGENT_MODE=true
       - AGENT_TOKEN=${ARCANE_AGENT_TOKEN}
       - MANAGER_API_URL=http://${DEVICE_HOSTNAME}:3552
+    env_file:
+      - ${APP_DATA_DIR}/settings.env
     ports:
-      - "3553:3553"
+      - "${HOST_PORT}:${CONTAINER_PORT}"
 
 volumes:
   arcane-data:
